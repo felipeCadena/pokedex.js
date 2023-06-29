@@ -14,11 +14,11 @@ body {
 }
 
 .pokemon {
-  width: 80px;
+  width: 100px;
   position: absolute;
   left: 100px;
-  bottom: 195px;
-  left: 170px;
+  bottom: 190px;
+  left: 160px;
 }
 
 .id {
@@ -31,7 +31,7 @@ body {
   bottom: 1px;
 }
 
-.next, .prev, .search {
+.next, .prev, .search, .random {
   padding: 10px 20px;
 }
 

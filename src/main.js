@@ -21,6 +21,9 @@ const pokemonImage = async (pokemon) => {
   image.src = data.sprites.versions['generation-v']['black-white'].animated.front_default;
 };
 
-search.addEventListener('click', () => {
-  pokemonImage(inputNameId.value);
+inputNameId.addEventListener('keypress', (event) => {
+  if (event.key === 'Enter') {
+    event.preventDefault();
+    pokemonImage(inputNameId.value);
+  }
 });
