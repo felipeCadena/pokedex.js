@@ -5,9 +5,15 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "vite --open"
+    "dev": "vite --open",
+    "lint": "eslint ./src",
+    "build": "vite build"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@trybe/eslint-config-frontend": "^1.11.3",
+    "vite": "^4.3.9"
+  }
 }
