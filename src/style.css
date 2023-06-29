@@ -27,18 +27,30 @@ body {
 
 .buttons {
   position: absolute;
-  left: 90px;
-  bottom: 1px;
+  left: 110px;
+  bottom: -20px;
 }
 
-.next, .prev, .search, .random {
-  padding: 10px 20px;
+.next, .prev, .random {
+  padding: 10px 30px;
+  border-radius: 3px;
+  margin: 5px;
+  border: 0 none;
+  background-color: rgb(255, 155, 160);
+}
+
+.next:hover, .prev:hover {
+  background-color: rgb(115, 247, 132);
 }
 
 .input {
   position: absolute;
-  right: 200px;
-  bottom: 70px;
+  right: 185px;
+  bottom: 50px;
+  border-radius: 3px;
+  padding: 10px;
+  border: 0 none;
+  background-color: rgb(255, 155, 160);
 }
 
 .input::placeholder {
