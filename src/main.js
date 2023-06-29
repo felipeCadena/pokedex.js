@@ -3,7 +3,7 @@ import './style.css';
 const inputNameId = document.querySelector('.input');
 const image = document.querySelector('.pokemon');
 // const buttonNext = document.querySelector('.next');
-const search = document.querySelector('.search');
+// const search = document.querySelector('.search');
 const idPokemon = document.querySelector('.id');
 const namePokemon = document.querySelector('.name');
 
