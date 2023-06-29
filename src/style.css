@@ -27,11 +27,11 @@ body {
 
 .buttons {
   position: absolute;
-  left: 150px;
+  left: 90px;
   bottom: 1px;
 }
 
-.next, .prev {
+.next, .prev, .search {
   padding: 10px 20px;
 }
 

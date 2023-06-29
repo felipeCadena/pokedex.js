@@ -2,7 +2,8 @@ import './style.css';
 
 const inputNameId = document.querySelector('.input');
 const image = document.querySelector('.pokemon');
-// const buttonNext = document.querySelector('.next');
+const buttonNext = document.querySelector('.next');
+const search = document.querySelector('.search');
 const idPokemon = document.querySelector('.id');
 const namePokemon = document.querySelector('.name');
 
@@ -20,10 +21,6 @@ const pokemonImage = async (pokemon) => {
   image.src = data.sprites.versions['generation-v']['black-white'].animated.front_default;
 };
 
-inputNameId.addEventListener('submit', (event) => {
-  event.defaultPrevented();
-
-  console.log(event.target.value);
+search.addEventListener('click', () => {
+  pokemonImage(inputNameId.value);
 });
-
-console.log(pokemonImage('bulbasaur'));
