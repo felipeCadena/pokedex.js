@@ -4,7 +4,7 @@ const inputNameId = document.querySelector('.input');
 const img = document.querySelector('.pokemon');
 const idPokemon = document.querySelector('.id');
 const namePokemon = document.querySelector('.name');
-const nextButton = document.querySelector('.next');
+// const nextButton = document.querySelector('.next');
 
 async function fetchPokemon(pokemon) {
   const url = await fetch(`https://pokeapi.co/api/v2/pokemon/${pokemon}`);
